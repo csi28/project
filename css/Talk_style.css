@@ -1,0 +1,73 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    width: 100%;
+    border-bottom: 1px solid #b9b9ff;
+}
+
+header .inner {
+    width: 100%;
+    height: 120px;
+    margin-bottom: 15px auto;
+}
+
+header .inner h1 {
+    position: relative;
+    left: 30px;
+}
+
+header .inner h1 a {
+    font-family: "Dongle";
+    font-size: 100px;
+    color: #2e2e2e;
+}
+
+header .inner #gnb {
+    position: absolute;
+    top: 57px;
+    right: 0px;
+}
+
+header .inner #gnb li {
+    float: left;
+}
+
+header .inner #gnb li a {
+    font-family: "Dongle";
+    font-size: 30px;
+    color: #555;
+    padding: 20px 40px;
+    transition: all 0.3s;
+}
+
+header .inner #gnb li a:hover {
+    background: rgb(185, 185, 255, 0.5);
+    color: #fff;
+}
+
+section {
+    width: 100%;
+    padding: 100px 0px;
+    background-color: rgba(185, 185, 255, 0.5);
+}
+
+section .container h1 {
+    text-align: center;
+    font-family: "Dongle";
+    font-size: 70px;
+}
